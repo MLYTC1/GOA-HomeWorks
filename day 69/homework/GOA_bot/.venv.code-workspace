@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Telegram_Bot Project/.venv"
+		},
+		{
+			"path": "../Telegram_Bot Project/.vscode"
+		},
+		{
+			"path": "../Telegram_Bot Project/__pycache__"
+		}
+	]
+}

@@ -1,0 +1,153 @@
+@media (max-width : 1360px){
+    header{
+        padding:10px 0 ;
+    }
+    nav{
+        display: none;
+    }
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    /* container6 */
+    form input{
+        width: 100%;
+    }
+    form input[type="email"]{
+        grid-column: auto;
+    }
+    form input[type="submit"]{
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .container6 p{
+        width: 100%;
+}
+}
+
+
+@media (max-width : 1000px){
+    .container1{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .container1-texts-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .container1-texts-container h1{
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .container1-texts-container p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .container1 img{
+        max-width: 70%;
+    }
+
+
+    /* section2 */
+
+    .container2-intro p{
+        width: 80%;
+    }
+    /* section3 */
+    .card1-section{
+        flex-direction: column;
+    }
+    .card1-section-into h1{
+        font-size: 34px;
+
+    }
+    
+    .card1-section-into p{
+        font-size: 27px;
+    }
+
+    .card1-section img{
+        max-width: 100%;
+        
+    }
+    .card2-section{
+        flex-direction: column-reverse;
+    }
+    .card2-section-into h1{
+        font-size: 34px;
+
+    }
+
+    .card2-section-into p{
+        font-size: 27px;
+    }
+
+    .card2-section img{
+        max-width: 100%;
+        
+    }
+    .card3-section{
+        flex-direction: column;
+    }
+    .card3-section-into h1{
+        font-size: 34px;
+
+    }
+
+    .card3-section-into p{
+        font-size: 27px;
+    }
+
+    .card3-section img{
+        max-width: 100%;
+        
+    }
+    /* container 4 */
+    .container4{
+        margin-top: 60px;
+    }
+    .container4-intro p{
+        font-size: 30px;
+    }
+    .container4-section-div p{
+        font-size: 27px;
+    }
+
+    /* container5 */
+    .container5-section-into{
+        flex-wrap: wrap;
+    }
+    .container5 p{
+        font-size: 30px;
+        width: 80%;
+    }
+    .container5-section p{
+        font-size: 15px;
+        line-height: 20.27px;
+
+    }
+    .container5-section-into div{
+        margin-top: 20px;
+    }
+    .container5-section h3{
+        font-size: 20px;
+        width: 80%;
+    }
+
+    /* footer */
+    .footer-intro{
+        width: min-content;
+    }
+    
+    .footer-intro li{
+        text-align: center;
+    }
+   
+    .footer-intro p{
+        text-align: center;
+    }
+ 
+}
+

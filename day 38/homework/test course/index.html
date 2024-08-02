@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Screenshot 2023-12-21 200034.png" alt="">
+        </div>
+        <h1>Shopping</h1>
+        <i  id="shop" class="fas fa-shopping-cart"></i>
+        <i onclick="clearCart()" class="fa-solid fa-trash"></i>
+        <div class="shopping">
+            <div>
+            <!-- <i id="shop" class="fas fa-shopping-cart"></i> -->
+            <span class="quantity" id="total-price">0</span>
+            </div>
+            <span class="quantity1" id="quantity">0</span>
+            <button onclick="purchase()" id="Buy">BUY</button>
+        </div>
+        <div id="cart-items"></div>
+    </header>
+    <section class="course">
+        <!-- <header>
+            <h1>Shopping</h1>
+            <div class="shopping">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="quantity">0</span>
+            </div> -->
+
+
+        <h1>Courses We Offer</h1>
+        <!-- <p>Python, JavaScript, Graphical design</p> -->
+        <div class="row">
+            <div  class="course-row">
+                <div class="course-col">
+                    <h3>Python</h3>
+                    <p>Dive into Python, a versatile language ideal for web development, data analysis, and AI projects. </p>
+                    <br>
+                    <p>Price: 50$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i  class="fa-solid fa-plus" onclick="addToCart('Python',50)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('Python',50)"></i>
+                    </div>
+                </div>
+                <div class="course-col">
+                    <h3>JavaScript</h3>
+                    <p>JavaScript powers dynamic web pages, providing interactivity and enhancing user experience.
+
+                    </p>
+                    <br>
+                    <p>Price: 50$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i class="fa-solid fa-plus" onclick="addToCart('JavaScript', 50)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('JavaScript', 50)"></i>
+                    </div>
+                </div>
+            </div>
+            <div  class="course-row">
+                <div class="course-col">
+                    <h3>C++</h3>
+                    <p>Master C++, renowned for its efficiency and used extensively in game development and system software.</p>
+                    <br>
+                    <p>Price: 100$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i class="fa-solid fa-plus" onclick="addToCart('C++', 100)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('C++', 100)"></i>
+                    </div>
+                </div>
+                <div class="course-col">
+                    <h3>C</h3>
+                    <p>Explore C, a foundational language known for its speed and control, used in operating systems and embedded systems.</p>
+                    <br>
+                    <p>Price: 100$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i class="fa-solid fa-plus" onclick="addToCart('C', 100)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('C', 100)"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="course-row">
+                <div class="course-col">
+                    <h3>C#</h3>
+                    <p>Discover C#, a modern language by Microsoft, perfect for developing Windows apps and web services.</p>
+                    <br>
+                    <p>Price: 100$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i class="fa-solid fa-plus" onclick="addToCart('C#', 100)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('C#', 100)"></i>
+                    </div>
+                </div>
+                <div class="course-col">
+                    <h3>HTML/CSS</h3>
+                    <p>HTML/CSS form the backbone of web development, defining structure and styling for seamless user interfaces.</p>
+                    <br>
+                    <p>Price: 30$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i class="fa-solid fa-plus" onclick="addToCart('CSS/HTML', 30)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('CSS/HTML', 30)"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div  class="course-row">
+                <div class="course-col">
+                    <h3>Ruby</h3>
+                    <p>Embrace Ruby, loved for its simplicity and productivity, especially with the Ruby on Rails framework.</p>
+                    <br>
+                    <p>Price: 30$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i class="fa-solid fa-plus" onclick="addToCart('Ruby', 30)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('Ruby', 30)"></i>
+                    </div>
+                </div>
+                <div class="course-col">
+                    <h3>Java</h3>
+            
+                    <p>Java empowers developers with its platform independence, making it perfect for building robust applications.</p>
+                    <br>
+                    <p>Price: 100$</p>
+                    <p class="quantity">Quantity: 0</p>
+                    <div class="inc-dic">
+                        <i class="fa-solid fa-plus" onclick="addToCart('Java', 100)"></i>
+                        <i class="fa-solid fa-minus" onclick="removeFromCart('Java', 100)"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

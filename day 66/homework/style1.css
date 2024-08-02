@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #273248;
+}
+#ilusion{
+    width: 1000px;
+    border-radius: 50%;
+    height: 100vh;
+}
+
+#input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #131822;
+    border-radius: 10px;
+    background-color: #A13334;
+    
+    
+}
+
+#input-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#input-container input{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: 2px solid #273248;
+    border-radius: 5px;
+
+}
+
+#input-container input[type="button"]{
+    width: 200px;
+    background-color: #CE7F54;
+    border: 2px solid #273248;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 700;
+
+}
+
+#output-container{
+    background-color: #CE7F54;
+    border: 3px solid #A13334;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    
+}
+
+#output-container p{
+    font-size: 21px;
+    font-weight: 600;
+    color: #141a25;
+    padding: 10px;
+
+}
+
+#output-container span{
+    margin: 10px;
+    color: #8d0002
+}
+
+#ask{
+    color: #8d0002;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+#input-container input[type="button"]:hover{
+    box-shadow: 0px 0px 10px #fff;
+    color: #fff;
+}
+
+#future{
+    background-color: ghostwhite;
+    color: #8d0002;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+#future span{
+    color: #131822;
+    margin: 10px;
+}
+
+#ask:hover{
+    text-shadow:0px 0px 10px #f0f0f0c5;
+}

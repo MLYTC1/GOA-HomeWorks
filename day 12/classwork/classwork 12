@@ -1,0 +1,18 @@
+import random
+
+member_list = ["dato", "giga", "zura", "nika", "mio"]
+cars_list = ["mercedes", "bmw", "toyota", "lexus", "porsche"]
+
+
+for i in range(len(member_list)):
+
+    name = random.choice(member_list)
+    car = random.choice(cars_list)
+    member_list.remove(name)
+    cars_list.remove(car)
+
+    def hello(name, car):
+        print("hello " + name)
+        print(name + " your car is:  " + car)
+
+    hello(name, car)

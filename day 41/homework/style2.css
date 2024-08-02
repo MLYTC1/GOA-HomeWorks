@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter&family=Kode+Mono:wght@400..700&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    background-color:hsl(47, 88%, 63%) ;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px black;
+    background-color: #fff;
+    width: 370px;
+    
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    
+    
+}
+svg{
+    border-radius: 10px;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 5px;
+    margin: 10px;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.date{
+    padding: 5px 20px;
+}
+
+.main h1{
+    font-weight: 800;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    
+    
+}
+
+.main p{
+   color: hsl(0, 0%, 50%);
+   margin-top: 20px;
+}
+
+.autor{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 20px 20px;
+    
+}
+
+.autor h1{
+    font-weight: 600;
+    font-size:17px ;
+    
+}
+
+.autor img{
+    width: 40px;
+}

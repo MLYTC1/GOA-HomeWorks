@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: 'Poppins', sans-serif;
+}
+.course{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0, 0.2);
+
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between ;
+
+    
+}
+.course-row{
+    display: grid;
+    padding: 20px;
+    margin: 40px;
+    /* cursor: pointer; */
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-right: 40px;
+    margin-top: -0px;
+    /* margin-top: 10px; */
+    border-bottom: 1px solid black;
+    /* padding-bottom: 10px;  */
+    
+}
+.inc-dic{
+    cursor: pointer;
+}
+.shopping{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Buy{
+    padding: 5px;
+    margin: 5px;
+    width: 80px;
+    height: auto;
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: #fff3f3;
+    cursor: pointer;
+}
+#Buy:hover{
+    background-color: #f2e111;
+    color: red;
+    transition: 0.6s;
+
+}
+/* #shop{
+    width: 60px;
+} */
+ header i{
+    cursor: pointer;
+ }
+ header img{
+    width: 150px;
+    height: 100px;
+    margin-left: -1000px;
+    margin-top: 30px;
+    border-radius: 50%;
+ }
+ .course-col{
+    width: 200px;
+    height: auto;
+    font-size: 1rem;
+    text-align: center;
+
+ }

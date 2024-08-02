@@ -1,0 +1,17 @@
+/* p {
+    /* text-decoration: line-through;  ხაზს გადაუსვამს ნაწერს*/
+    /* text-decoration-line: overline underline; ზემოდან და ქვემოდანაც გაუსვამს ხაზს */
+    /* text-decoration-color: aquamarine; ხაზს აძლევს ფერს */
+    /* text-decoration-line:underline; */
+    /* text-decoration-style:dotted; გადასმულ ხაზებს უცვლის ფორმებს */
+    /* text-decoration-thickness: 5px; სისქეს განს. ხაზის */
+    /* text-decoration: underline blueviolet wavy 5px; მოკლედ რომ ჩავწეროთ ყველა ზემოთ გამოყენებული სტაილი*/
+    /* font-weight: 900; min -100,max-900} */
+
+
+/* 
+linkebis gastilva
+a:link - თუ არ შევსულვართ ლინკზე
+a:visited - თუ შევედით ლინკზე
+a:hover - მაუსის მიტანისას
+a:active - მაუსის დაჭერისას */

@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    font-display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+form input{
+    margin:10px ;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+}

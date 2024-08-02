@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/day_66/homework/style1.css">
+</head>
+<body>
+    <main>
+        <section id="input-container">
+            <form>
+                <input id="name" type="text" placeholder="name">
+                <input id="surname" type="text" placeholder="surname">
+                <input id="age" type="number" placeholder="age">
+                <input id="time" type="numebr" placeholder="time">
+                <input type="button" onclick="outputResult()" value="submit">
+            </form>
+        </section>
+
+        <section id="output-container">
+            <p>Name:<span id="user-name"></span></p>
+            <p>Surname: <span id="user-surname"></span></p>
+            <p>Age: <span id="user-age"></span></p>
+            <p>Travel time: <span id="user-time"></span></p>
+
+            <h5 onclick="timetravel()" id="ask">Really want to travel?</h5>
+        </section>
+
+        <section id="future">
+            <h1>You will be <span id="result"></span> years old</h1>  
+            <h1>Year wil be: <span id="future-year"></span></h1>
+        </section>
+
+            
+    </main>
+
+    <script src="/day_66/homework/script1.js"></script>
+</body>
+</html>

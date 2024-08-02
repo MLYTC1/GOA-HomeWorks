@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-div{
+    border: 5px solid black;
+    padding: 10px;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center; /*x-ღერძზე ასწორებს*/
+    /*center, flex-start,flex-end, space-between-ყველა მხრიდან თანაბრად იქნება დაშორებული,space around, space-evenly*/
+    align-items: center  ; /*y-ღერძზე ასწორებს*/
+    /* flex-direction: column;თუ column მაქვს არჩეული justify-content და align-items მნიშვნელობებს იცვლიან */
+    flex-wrap: wrap;
+    gap: 10px;/*ელემენტებს შოსრის დაშორება*/
+}
+
+.child-div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    border: 2px solid black;
+}

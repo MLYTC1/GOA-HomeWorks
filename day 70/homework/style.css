@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Big+Shoulders+Display:wght@100..900&family=Black+Ops+One&family=Courgette&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Gruppo&family=Indie+Flower&family=Inter&family=Jersey+10&family=Jersey+15&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Satisfy&family=Space+Grotesk:wght@300..700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Big+Shoulders+Display:wght@100..900&family=Black+Ops+One&family=Courgette&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Gruppo&family=Indie+Flower&family=Inter&family=Jersey+10&family=Jersey+15&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Satisfy&family=Space+Grotesk:wght@300..700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Black Ops One", system-ui;
+    background-color: black;
+    background-image: url(https://media0.giphy.com/media/tIHktzgRi8yjIplFVI/giphy.gif?cid=6c09b95217odoo8z5k8s4tawxovv584oknzly1c79he6eckl&ep=v1_gifs_search&rid=giphy.gif&ct=s);
+    color: aliceblue;
+}
+
+header{
+    font-family: "Satisfy", cursive;;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
+
+.main-div{
+    display: flex;
+    gap: 40px;
+}
+
+.main-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin: 30px;
+    border: 4px dotted #Ffff;
+    border-radius: 50%;
+}
+
+p{
+    font-size: 70px;
+}
+
+
+.main-div div:hover{
+    box-shadow: 0px 0px 20px #ffff;
+    
+}

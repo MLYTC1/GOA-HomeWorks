@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Day_64/homework/style.css">
+</head>
+<body>
+    <div class="container1">
+    
+        <section class="register-form">
+            <div>
+
+                <p>REGISTER</p>
+
+                <form >
+                    <input id="reg-name" type="text" placeholder="Name">
+                    <input id="reg-pass" type="password" placeholder="Password">
+                    <input onclick="register()" type="button" value="REGISTER">
+                </form> 
+            </div>
+        </section>
+
+        <section class="log-form">
+            <div>
+                <p>LOG IN</p>
+                <form id="logIn-form">
+                    <input  id="log-name" type="text" placeholder="Name">
+                    <input id="log-pass" type="password" placeholder="Password">
+                    <input onclick="logIn()" type="button" value="LOG IN">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <p id="alert"></p>
+
+    <div class="container2">
+        <p>account name_ <span id="account"></span></p>
+    </div>
+    
+
+
+
+
+    <script src="/Day_64/homework/script.js"></script>
+</body>
+</html>

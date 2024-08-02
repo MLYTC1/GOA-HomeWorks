@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Courgette&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Sacramento&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    
+}
+
+.main-section{
+    display: grid;
+    width: 70%;
+    /* height: 80%; */
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+}
+article{
+    padding: 25px;
+    border-radius: 10px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.article1{
+    grid-column: 1/3;
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+    color: hsl(210, 46%, 95%);
+
+}
+
+.autor-1{
+    color: hsl(0, 0%, 81%);
+}
+
+.article1  p{
+    color: hsl(0, 0%, 81%);
+}
+
+.bg-article1{
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+
+
+
+
+.article2{
+    grid-column: 3/4;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+}
+
+.autor-2{
+    color: hsl(0, 0%, 81%); 
+}
+.article2 p{
+    color: hsl(0, 0%, 81%);
+}
+
+.article3{
+    background-color: #fff;
+    color:hsl(217, 19%, 35%);
+}
+
+
+
+.article4{
+    grid-area: 2/2/3/4;
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(210, 46%, 95%);
+
+}
+.autor-4{
+    color: hsl(0, 0%, 81%);
+}
+
+.article4 p{
+    color: hsl(0, 0%, 81%);
+}
+
+
+.article5{
+    grid-area: 1/4/3/5;
+    background-color: #fff;
+    color:hsl(217, 19%, 35%);
+
+}
+
+article div{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+    
+}
+
+article span{
+    font-weight: 300;
+    font-size: 14px;
+
+}
+
+article h3{
+    font-size: 22px;
+    font-weight: 500;
+    z-index: 11;
+}
+
+article img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.attribution{
+    position: absolute;
+    bottom:10px;
+    right: 50%;
+    transform: translatex(50%);
+}

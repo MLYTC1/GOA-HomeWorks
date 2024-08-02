@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Courgette&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Roboto:wght@400;500;700&family=Sacramento&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Courgette&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Roboto:wght@400;500;700&family=Sacramento&family=Satisfy&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Courgette&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Gruppo&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Roboto:wght@400;500;700&family=Sacramento&family=Satisfy&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 70vh;
+    background-image: linear-gradient(to left, rgba(45, 52, 75, 0.795), rgba(45, 52, 75, 0.808)), url(/Day_50/img/bg-wood.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+}
+.nav-title{
+    font-size: 2rem;
+    color: rgb(114, 107, 107);
+}
+
+.nav-title span{
+    color: #fff;
+    font-weight: 400;
+   
+}
+    /* menu style */
+
+nav ul{
+    display: flex;
+    margin:10px;
+    padding: 10px;
+    list-style-type: none;
+    gap: 10px;
+}
+
+nav ul li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.9rem ;
+    color: #fff;
+}
+
+hr{
+    background-color: #fff;
+    width: 80%;
+}
+
+
+/* header-intro */
+.header-intro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    top: 20%;
+     /* transform: translatey(-100%); */
+}
+.header-intro h1 {
+    color: #fff;
+    font-size: 2.8rem ;
+    letter-spacing: 1px;
+    width: 80%;
+    text-align: center;
+    width: 90%;
+}
+
+.header-intro p{
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* header button */
+
+.header-intro button{
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+}
+
+/* main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section1{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,300px));
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    gap:15px;
+    margin-top: 70px;
+
+}
+
+.section1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.section1 div img{
+    width: 60px;
+    padding: 5px;
+    filter: invert(49%) sepia(64%) saturate(6552%) hue-rotate(2deg) brightness(99%) contrast(116%);
+} 
+
+.section1 div h2{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.section1 div p{
+    text-align: center;
+    opacity: 0.8;
+    line-height: 26px;
+    font-size: 0.9rem;
+}
+
+
+.section2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-rows: repeat(2,400px);
+    grid-template-areas: 
+    'bg1 bg2 bg3 bg4'
+    'bg5 bg6 bg7 bg8';
+    margin-top: 80px;
+    gap: 1px;
+    
+}
+
+.bg1{
+    grid-area: bg1;
+    background-image: linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.bg2{
+    grid-area: bg2;
+    background-image: linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg3{
+    grid-area: bg3;
+    background-image: linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg4{
+    grid-area: bg4;
+    background-image: linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg5{
+    grid-area: bg5;
+    background-image: linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg6{
+    grid-area: bg6;
+    background-image: linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg7{
+    grid-area: bg7;
+    background-image: linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg8{
+    grid-area: bg8;
+    background-image:linear-gradient(to left, rgba(155, 84, 84, 0.555), rgba(155, 84, 84, 0.555)), url(/Day_50/img/8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section3{
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 0.3rem;
+    margin-top: 100px;
+
+}
+
+.section3 div{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.section3 span{
+    font-size: 13px;
+    font-weight: 300;
+    color: orangered;
+
+}
+.section3 h4{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 23px;
+}
+.section3 img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.section3 p{
+    line-height: 26px;
+    opacity: 0.8;
+
+}
+.section3 .logo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section3 .logo img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 4px;
+    
+
+}
+
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-template-rows: repeat(auto-fit, minmax(500px,1fr));
+    width: 100%;
+    margin: 50px;
+}
+
+.img-sec4{
+    background-image: url(/Day_50/img/TB8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.part2{
+    background-color: rgb(112, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px;
+    
+}
+
+
+.section4 h2 {
+    font-family:Satisfy;
+    font-size: 35px;
+    color: #fff;
+    width: 80%;
+    /* padding: 40px;
+     */
+
+}
+
+.section4 span{
+    color: #fff;
+    /* padding: 40px; */
+    font-weight: 500;
+}
+
+.circle{
+    display: flex;
+    gap: 4px;
+    justify-content: start;
+    /* margin-top: 40px;
+    margin-left: 100px; */
+
+}
+
+.circle div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff9d;
+}
+
+.circle :nth-child(1){
+    background-color: #fff;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+
+}
+
+.section5 p{
+    font-size: 25px;
+    font-family: Gruppo , Static;
+    font-weight: 500;
+    opacity: 0.8;
+    
+}
+
+.section5 button{
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+}
+
+footer{
+    background-color: rgb(61, 59, 59);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+}
+
+footer div{
+    display: grid;
+    justify-content: center;
+    text-align: center; 
+    gap: 5px;
+    padding: 20px;
+}
+
+footer h6{
+    color: #fff;
+}
+
+footer .logo2{
+    display: flex;
+}
+
+footer .logo2 img{
+    filter: invert(99%) sepia(100%) saturate(1%) hue-rotate(248deg) brightness(103%) contrast(100%);
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffff;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+footer p{
+    color: rgb(190, 185, 185);
+    width: 500px;
+}

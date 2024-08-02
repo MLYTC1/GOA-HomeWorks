@@ -1,0 +1,12 @@
+body{
+    position: relative;
+    height: 100vh;
+}
+
+#click{    
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: relative;
+
+}

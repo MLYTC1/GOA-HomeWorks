@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Day_61/style63.css">
+</head>
+<body>
+    <section class="section_form"> 
+
+        <form>
+            <input id="userName" type="text" placeholder="Name">
+            <label id="nameLabel" for="userName"></label>
+            <input id="userSurname" type="text" placeholder="Surname">
+            <label id="surnameLabel" for="userSurname"></label>
+            <input id="userPass" type="text" placeholder="Password">
+            <label id="passLabel" for="userPass"></label>
+        </form>
+
+        <button onclick="submitClick()" id="submit">Submit</button>
+       
+    
+    </section>
+
+    <section class="output_section">
+        <p>User Name: <span id="name"></span></p>
+        <p>User Surname: <span id="surname"></span></p>
+        <p>User Password: <span id="pass"></span></p>
+
+        <p id="change-pass" onclick="changePass()">change password</p>
+    </section>
+
+
+    <script src="/Day_61/script63.js"></script>
+</body>
+</html>

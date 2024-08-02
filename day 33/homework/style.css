@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Protest+Strike&display=swap');
+
+h1,p {
+    font-size: 80px;
+    color: greenyellow;
+    background-color: black;
+    font-family: Kode Mono;
+}
+
+/* font-family ცვლი ფონტს */

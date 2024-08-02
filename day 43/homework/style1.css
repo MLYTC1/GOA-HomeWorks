@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lexend Deca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    display: flex;
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+    height: 70%;
+}
+
+main div{
+    margin: 10px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .sedans{
+    background-color: hsl(31, 77%, 52%);
+    margin-right: 0px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+main .suvs{
+    background-color: hsl(184, 100%, 22%);
+    margin: 10px 0px;
+}
+
+main .luxury {
+    background-color: hsl(179, 100%, 13%);
+    margin-left: 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+div button{
+    padding: 15px 30px;
+    border-radius: 20px;
+    width: 60%;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+main .sedans button{
+    color:  hsl(31, 77%, 52%);
+}
+
+main .suvs button{
+    color:hsl(184, 100%, 22%);
+}
+
+main .luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+p {
+    font-weight: 300;
+    opacity: 80%;
+    line-height: 25px;
+}
+
+h1{
+    font-family:Big Shoulders Display;
+    letter-spacing: 1px;
+    font-size: 40px;
+    opacity: 90%;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px #fff;
+    text-shadow: #fff;
+    transition-duration: 0.25s;
+}

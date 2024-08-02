@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter&family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter&family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrat,  sans-serif  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:hsl(30, 38%, 92%) ;
+}
+
+section{
+    display: flex;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 750px;
+    height: 600px;
+}
+
+img{
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+}
+
+.into-div{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.perfume{
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    letter-spacing: 4px;
+    opacity: 60%;
+    font-weight: 500;
+}
+
+.into-div h1{
+    font-family: Fraunces;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 40px;
+    
+
+}
+
+.intro{
+    
+    margin: 10px;
+    padding: 10px;
+    opacity: 60%;
+    line-height: 25px;
+
+}
+
+.price{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:Fraunces;
+    color:hsl(158, 36%, 37%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.old-price{
+    font-size: 15px;
+    text-decoration:line-through;
+    color:hsl(228, 12%, 48%);
+
+}
+
+button{
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: hsl(212, 21%, 14%);
+    color: #fff;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover{
+    background-color: hsl(228, 12%, 48%);
+}

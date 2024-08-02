@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Young+Serif&display=swap');
+
+body{
+    background-color:hsl(30, 54%, 90%);
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 80%;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    line-height: 40px;
+}
+
+
+main img{
+    width: 100%;
+    border-radius: 15px;
+    margin: auto;
+    
+   
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+    color:hsl(14, 45%, 36%);
+    
+}
+
+main h1{
+    color: hsl(24, 5%, 18%);
+    
+}
+
+h3 {
+   color: hsl(332, 51%, 32%);
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    list-style-position: inside;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.ingredients, .instructions, .nutrition {
+    padding: 15px 25px;
+    list-style-position: inside;
+    
+    
+}
+.table{
+    margin: auto;
+    border-collapse:collapse;
+    width: 100%;
+    margin: 10px;
+    
+}
+.table td{
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    
+}
+
+.table td:nth-child(2){
+    color:hsl(14, 45%, 36%);
+}

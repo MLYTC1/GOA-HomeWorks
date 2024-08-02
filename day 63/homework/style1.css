@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#next{
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    filter: invert(50%) sepia(13%) saturate(7195%) hue-rotate(143deg) brightness(98%) contrast(101%);
+}
+
+#back{
+    transform: rotate(180deg);
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    filter: invert(50%) sepia(13%) saturate(7195%) hue-rotate(143deg) brightness(98%) contrast(101%);
+}
+
+#photo{
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 29);
+}

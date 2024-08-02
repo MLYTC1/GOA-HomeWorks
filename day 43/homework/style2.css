@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Sacramento&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    height: 100vh;
+    background-image: url(/Day_43/img/bg2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:10%;
+    width: 100%;
+    padding: 20px;
+    background-color:aliceblue;
+}
+
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    width: 33.33%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 33.33%;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.nav2 button{
+    padding: 15px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.title h1{
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+
+.main-nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 30px;
+    
+}
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    
+}
+
+.main-title h1{
+    font-size: 60px;
+    color: #fff;
+    width: 80%;
+    font-weight:600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main-title p{
+    font-size: 20px;
+    width: 80%;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+form{
+    width: 100%;
+}
+input {
+    padding: 30px;
+    border-radius: 40px;
+    width:80%;
+}
+
+.nav-last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}
+
+.nav-last a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+.nav-last p{
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    text-align: end;
+    justify-content:start;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 30px 0px 0px 20%;
+}
+
+select.list{
+    padding: 10px;
+    color: rgba(116, 116, 116, 0.904);
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.main-nav a:hover{
+    background-color: #ffffff;
+    color: black;
+    border: none;
+}
+
+header a:hover{
+    text-decoration-line: underline;
+    font-size: larger;
+}
+header button:hover{
+    font-size:15px;
+}
+
+.nav-last a:hover{
+    background-color: #fff;
+    color: black;
+}

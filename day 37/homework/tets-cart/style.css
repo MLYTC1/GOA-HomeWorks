@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+#toggleButton {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#toggleButton:hover {
+    background-color: #005f5f;
+}
+
+#shoppingCart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}

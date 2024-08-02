@@ -1,0 +1,124 @@
+/* დარესეტება */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    margin-top: 200px;
+    margin-left: 5px;
+}
+
+.table1{
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(3, 145, 62);
+    border-bottom: 1px solid #fff;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.table1 td{
+    border-bottom: 0.1px solid #fff;
+    padding:10px 30px;
+}
+
+.table1 th{
+    background-color:rgb(83, 141, 98);
+    padding:10px 30px;
+}
+
+#tb1-header{
+    background-color: rgb(3, 145, 62);
+}
+
+
+.table2{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table2 th{
+    border-right: 1px solid white;
+}
+
+.table2 td{
+    border-right: 1px solid white;
+}
+
+.table2 th{
+    color: #fff;
+    width: 100px;
+    padding: 15px 20px;
+}
+
+.table2 th:nth-child(1){
+    background-color: rgba(196, 217, 255, 0.781);
+}
+
+.table2 th:nth-child(2){
+    background-color: rgba(32, 175, 63, 0.514);
+}
+
+.table2 th:nth-child(3){
+    background-color: rgb(28, 138, 211);
+}
+
+.table2 th:nth-child(4){
+    background-color: rgb(5, 45, 179);
+}
+
+.table2 td:nth-child(even){
+    background-color: rgba(127, 255, 212, 0.452);
+}
+
+.table2 td:nth-child(odd){
+    background-color: rgba(255, 228, 196, 0.507);
+}
+
+.table3{
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid yellow;
+    background-color: rgb(62, 230, 20);
+}
+
+.table3 th{
+    background-color: red;
+    border: 2px solid yellow;
+    color: #fff;
+    padding: 10px;
+}
+
+.table3 td{
+    border: 2px solid yellow;
+}
+
+.table4{
+    border-collapse: collapse;
+    border:2px solid red;
+}
+
+.table4 th{
+    background-color: yellow;
+    padding: 5px 50px;
+    text-align: center;
+    border: 2px solid red;
+
+}
+
+.table4 th:nth-child(1){
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.table4 td:nth-child(1){
+    background-color: yellow;
+    
+}
+
+.table4 td{
+    padding-left: 5px;
+    border: 2px solid red;
+}
